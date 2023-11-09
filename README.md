@@ -25,4 +25,4 @@ Generate sythentic data by running `./data/simulation/generate.py`. Then follow 
 
 ## Results on Double-Node Interventions
 
-All figures can be found in `./notebooks/figures`. For the trained models, these are uploaded to  due to space limit.
+All figures can be found in `./notebooks/figures`. For the trained models, these are uploaded to https://www.dropbox.com/sh/139nwj128o7g11f/AACV95PzRAc7-zKQMuvjiJEda?dl=0 due to space limit.
