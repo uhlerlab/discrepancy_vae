@@ -1,0 +1,29 @@
+digraph "./figures/DAG2" {
+	ratio=0.6
+	OSR2 [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	TBX2 [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	DUSP9 [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	"MAPK1
+ / ETS2" [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	COL2A1 [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	SET [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	KLF1 [color=white fillcolor=white fontname="Bold-Times-Roman" fontsize=36 height=1 style="filled,setlinewidth(0)" width=2]
+	DUSP9 -> COL2A1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	TBX2 -> DUSP9 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	OSR2 -> COL2A1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	TBX2 -> SET [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	COL2A1 -> KLF1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	TBX2 -> COL2A1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	OSR2 -> KLF1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	DUSP9 -> "MAPK1
+ / ETS2" [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	COL2A1 -> SET [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	DUSP9 -> KLF1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	OSR2 -> SET [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	"MAPK1
+ / ETS2" -> KLF1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	TBX2 -> KLF1 [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	DUSP9 -> SET [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+	TBX2 -> "MAPK1
+ / ETS2" [arrowsize=1 color=lightsteelblue style="setlinewidth(4)"]
+}
