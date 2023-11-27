@@ -1,6 +1,6 @@
 # Discrepancy-based VAE
 
-Code for paper: _Identifiability Guarantees for Causal Disentanglement from Soft Interventions (NeurIPS 2023)_
+Code for paper: _Identifiability Guarantees for Causal Disentanglement from Soft Interventions_ ([NeurIPS 2023](https://openreview.net/pdf?id=o16sYKHk3S))
 
 arXiv link: https://arxiv.org/abs/2307.06250
 
